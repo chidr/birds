@@ -1,0 +1,38 @@
+<h1>
+<p>login details</p>
+</h1>
+
+<form #ref="ngForm"(ngSubmit)="sendData(ref)">
+
+    <h1>
+   
+    <div>
+        <label for="un">username</label>
+        <input type="text" name="username" id="un" ngModel >
+    </div>
+    
+    <div>
+        <label for="un">gmail-id</label>
+        <input type="text" name="gmail-id" id="un" ngModel >
+
+    </div>
+
+   
+
+    <div>
+        <label for="pw">password</label>
+        <input type="password" name="password" id="pw" ngModel>
+    </div>
+
+    <div>
+        <label for="pw">comfirm password</label>
+        <input type="password" name="comfirm password" id="pw" ngModel>
+    </div>
+    <button type="submit">submit</button>
+    <button type="reset">reset</button>
+    <button type="submit">cancel</button>
+    <br>
+    <br>
+
+</h1>
+</form>

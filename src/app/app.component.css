@@ -1,0 +1,28 @@
+h1
+{
+    color: rgb(51, 49, 46);
+    text-align: center;
+    background-color: rgb(149, 248, 130);
+   
+}
+body
+{
+    background-image: url(../assets/images/background.jpg);
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    
+    height:400vh;
+    
+}
+.right
+{
+    margin-left:756px;
+}
+.right li{
+float:right
+}
+i
+{
+    margin-left: 13px;
+    color: blueviolet;
+}

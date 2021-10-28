@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1>FLOWERS
+  <br>
+         birds</h1>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">
+    <img src="../assets/images/icon.jpg" alt="no img" width="50px" height="45px">
+  </a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/home"><i class="fas fa-house-damage"></i>home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/about"><i class="fas fa-eject"></i>about</a>
+    </li>
+    
+
+       <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" routerLink="/order" id="navbardrop" data-toggle="dropdown"><i class="fas fa-chevron-circle-down"></i>
+        order
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="order/spot"><i class="fab fa-jedi-order"></i>spot</a>
+        <a class="dropdown-item" routerLink="order/take-away"><i class="fas fa-list-ol"></i>take-away</a>
+        <a class="dropdown-item" routerLink="order/cart"><i class="fas fa-cart-arrow-down"></i>cart</a>
+      </div>
+    </li>
+    <div class="right">
+      <li class="nav-item">
+        <a class="nav-link"routerLink="/login-in"><i class="fas fa-user-plus"></i>login-in</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"routerLink="/sign-in"><i class="fas fa-sign-in-alt"></i>sign-in</a>
+      </li>
+  
+    </div>
+  </ul>
+  
+</nav>
+<router-outlet></router-outlet>
+
+<footer></footer>
+
+ 
+</body>
+<app-footer></app-footer>
+</html>
+
+
+
